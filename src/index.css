@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+body{
+    font-family:  'Baloo Bhai 2', cursive;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.c1{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.containerr::-webkit-scrollbar {
+  display: none;
+}
+
+.cont{
+  display: flex;
+  justify-content: space-between;
+
+}
+.box{
+  height: 70px;
+  width: 800px;
+  border: 2px solid black;
 }
