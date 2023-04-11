@@ -16,10 +16,9 @@ const App=()=> {
   return (
     <>
    
-   <Navbar></Navbar>
+   
   <Register></Register>
-    <Get></Get>
-   <Get1></Get1>
+   
    
     </>
   );

@@ -31,8 +31,7 @@ axios.get(`http://localhost:2022/get/${data}`).then((p)=>{
       for(let i=0;i<arr.length;i++){
         series[i]=arr[i]
       }
-      
- 
+    
     setObj(data)
 
 },(e)=>{
